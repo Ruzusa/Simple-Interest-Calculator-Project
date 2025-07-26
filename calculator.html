@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="calculator.js"></script>
+    <link rel="stylesheet" href="calculator.css" />
+    <title>Simple Interest Calculator</title>
+  </head>
+  <body>
+    <div class="maindiv">
+      <h1>Simple Interest Calculator</h1>
+
+      <label for="principal"> Amount </label
+      ><input type="number" id="principal" /> <br />
+      <label for="rate">Rate</label>
+      <input
+        type="range"
+        onchange="updateRate()"
+        id="rate"
+        min="1"
+        max="20"
+        value="10.25"
+        step="0.25"
+      />
+      <span id="rate_val">10.25</span>%<br />
+      <label for="years">Years</label>
+      <input type="number" id="years" list="all_years" />
+      <datalist id="all_years">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option></option>
+      </datalist>
+      <br />
+      <label for="result">Interest:</label><br /><span id="result"></span>
+      <button onclick="compute()">Compute Interest</button>
+      <span id="result"> </span>
+    </div>
+    <br />
+    <footer>&#169; This Calculator belongs to --Ruzusa--</footer>
+  </body>
+</html>
