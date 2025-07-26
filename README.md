@@ -23,7 +23,7 @@ This is a beginner-friendly **Simple Interest Calculator** built using **HTML**,
 
 ## 📸 Screenshot
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.PNG)
 ---
 
 ## 🧮 How It Works
