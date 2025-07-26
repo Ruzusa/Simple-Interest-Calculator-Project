@@ -38,8 +38,11 @@ This is a beginner-friendly **Simple Interest Calculator** built using **HTML**,
 ## 📂 Project Structure
 
 ├── calculator.html
+
 ├── calculator.css
+
 ├── calculator.js
+
 └── README.md
  
 ---
